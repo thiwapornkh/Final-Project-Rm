@@ -1,0 +1,165 @@
+@keyframes bounce-in-top {
+  0% {
+    transform: translateY(-500px);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  38% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  55% {
+    transform: translateY(-65px);
+    animation-timing-function: ease-in;
+  }
+  72%,
+  90%,
+  to {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+  81% {
+    transform: translateY(-28px);
+    animation-timing-function: ease-in;
+  }
+  95% {
+    transform: translateY(-8px);
+    animation-timing-function: ease-in;
+  }
+}
+@keyframes bounce-top {
+  0% {
+    transform: translateY(-45px);
+    animation-timing-function: ease-in;
+    opacity: 1;
+  }
+  24% {
+    opacity: 1;
+  }
+  40% {
+    transform: translateY(-24px);
+    animation-timing-function: ease-in;
+  }
+  65% {
+    transform: translateY(-12px);
+    animation-timing-function: ease-in;
+  }
+  82% {
+    transform: translateY(-6px);
+    animation-timing-function: ease-in;
+  }
+  93% {
+    transform: translateY(-4px);
+    animation-timing-function: ease-in;
+  }
+  25%,
+  55%,
+  75%,
+  87% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+  to {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+}
+.download-premium-png-of-purple1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 375px;
+  height: 812px;
+  object-fit: cover;
+}
+.previous-1-icon,
+.rectangle-icon1 {
+  position: absolute;
+  object-fit: cover;
+  cursor: pointer;
+}
+.rectangle-icon1 {
+  top: 596px;
+  left: 39px;
+  border-radius: 10px;
+  width: 140px;
+  height: 115px;
+}
+.rectangle-icon1:active {
+  animation: 3s ease 0s 1 normal none bounce-top;
+}
+.previous-1-icon {
+  top: 45px;
+  left: 156px;
+  width: 63px;
+  height: 63px;
+  animation: 1s ease 0s 1 normal none bounce-in-top;
+}
+.rectangle-icon2,
+.rectangle-icon3,
+.rectangle-icon4,
+.rectangle-icon5,
+.rectangle-icon6,
+.rectangle-icon7 {
+  position: absolute;
+  top: 152px;
+  left: 39px;
+  border-radius: 10px;
+  width: 140px;
+  height: 115px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.rectangle-icon2:active {
+  animation: 3s linear 0s 1 alternate none bounce-top;
+}
+.rectangle-icon3,
+.rectangle-icon4,
+.rectangle-icon5,
+.rectangle-icon6,
+.rectangle-icon7 {
+  top: 300px;
+}
+.rectangle-icon3:active {
+  animation: 2s ease 0s 1 normal none bounce-top;
+}
+.rectangle-icon4,
+.rectangle-icon5,
+.rectangle-icon6,
+.rectangle-icon7 {
+  top: 448px;
+}
+.rectangle-icon4:active {
+  animation: 3s ease 0s 1 normal none bounce-top;
+}
+.rectangle-icon5,
+.rectangle-icon6,
+.rectangle-icon7 {
+  top: 152px;
+  left: 196px;
+}
+.rectangle-icon5:active {
+  animation: 2s ease 0s 1 normal none bounce-top;
+}
+.rectangle-icon6,
+.rectangle-icon7 {
+  top: 300px;
+}
+.rectangle-icon6:active {
+  animation: 3s ease 0s 1 normal none bounce-top;
+}
+.rectangle-icon7 {
+  top: 448px;
+}
+.rectangle-icon7:active {
+  animation: 2s ease 0s 1 normal none bounce-top;
+}
+.lesson1-div {
+  position: relative;
+  background-color: #f7f1fb;
+  width: 100%;
+  height: 812px;
+  overflow: hidden;
+}

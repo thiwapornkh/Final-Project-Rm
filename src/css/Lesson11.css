@@ -1,0 +1,114 @@
+@keyframes bounce-in-top {
+  0% {
+    transform: translateY(-500px);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  38% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  55% {
+    transform: translateY(-65px);
+    animation-timing-function: ease-in;
+  }
+  72%,
+  90%,
+  to {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+  81% {
+    transform: translateY(-28px);
+    animation-timing-function: ease-in;
+  }
+  95% {
+    transform: translateY(-8px);
+    animation-timing-function: ease-in;
+  }
+}
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.rectangle-icon8 {
+  position: absolute;
+  top: 21px;
+  left: 19px;
+  border-radius: 10px;
+  width: 336px;
+  height: 769px;
+  display: none;
+}
+.image-2-icon {
+  top: 589px;
+  left: 48px;
+  border-radius: 5px;
+  width: 279px;
+  height: 101px;
+  animation: 1s ease 0s 1 normal none scale-up;
+}
+.image-1-icon,
+.image-2-icon,
+.previous-2-icon {
+  position: absolute;
+  object-fit: cover;
+}
+.image-1-icon {
+  top: 468px;
+  left: 48px;
+  border-radius: 5px;
+  width: 281px;
+  height: 92px;
+  animation: 1s ease 0s 1 normal none scale-up;
+}
+.previous-2-icon {
+  top: 44px;
+  left: 156px;
+  width: 63px;
+  height: 63px;
+  animation: 1s ease 0s 1 normal none bounce-in-top;
+  cursor: pointer;
+}
+.a-blocks-label {
+  top: 132px;
+  left: 92px;
+  font-weight: 700;
+  display: inline-block;
+}
+.a-blocks-label,
+.a-code-label,
+.numgif1-1-icon {
+  position: absolute;
+  animation: 1s ease 0s 1 normal none scale-up;
+}
+.a-code-label {
+  top: 393px;
+  left: 106px;
+  font-weight: 700;
+  display: inline-block;
+}
+.numgif1-1-icon {
+  top: 205px;
+  left: 34px;
+  border-radius: 5px;
+  width: 308px;
+  height: 163px;
+  object-fit: cover;
+}
+.lesson1-1-div {
+  position: relative;
+  background-color: #f7f1fb;
+  width: 100%;
+  height: 812px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 40px;
+  color: #bd00ff;
+  font-family: Roboto Mono;
+}

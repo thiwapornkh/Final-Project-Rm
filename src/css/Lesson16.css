@@ -1,0 +1,108 @@
+@keyframes bounce-in-top {
+  0% {
+    transform: translateY(-500px);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  38% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  55% {
+    transform: translateY(-65px);
+    animation-timing-function: ease-in;
+  }
+  72%,
+  90%,
+  to {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+  81% {
+    transform: translateY(-28px);
+    animation-timing-function: ease-in;
+  }
+  95% {
+    transform: translateY(-8px);
+    animation-timing-function: ease-in;
+  }
+}
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.rectangle-icon12 {
+  position: absolute;
+  top: 21px;
+  left: 19px;
+  border-radius: 10px;
+  width: 336px;
+  height: 769px;
+  display: none;
+}
+.previous-2-icon5 {
+  position: absolute;
+  top: 44px;
+  left: 156px;
+  width: 63px;
+  height: 63px;
+  object-fit: cover;
+  animation: 1s ease 0s 1 normal none bounce-in-top;
+  cursor: pointer;
+}
+.a-blocks-label5,
+.a-code-label5 {
+  position: absolute;
+  top: 129px;
+  left: 91px;
+  font-weight: 700;
+  display: inline-block;
+  animation: 1s ease 0s 1 normal none scale-up;
+}
+.a-code-label5 {
+  top: 365px;
+  left: 106px;
+}
+.image-11-icon,
+.image-12-icon,
+.numgif1-1-icon4 {
+  position: absolute;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.numgif1-1-icon4 {
+  top: 192px;
+  left: 34px;
+  width: 308px;
+  height: 163px;
+  animation: 1s ease 0s 1 normal none scale-up;
+}
+.image-11-icon,
+.image-12-icon {
+  top: 428px;
+  left: 77px;
+  width: 221px;
+  height: 174px;
+}
+.image-12-icon {
+  top: 628px;
+  left: 74px;
+  width: 224px;
+  height: 165px;
+}
+.lesson1-6-div {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 812px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 40px;
+  color: #bd00ff;
+  font-family: Roboto Mono;
+}

@@ -1,0 +1,51 @@
+.rectangle-div16 {
+  position: absolute;
+  top: -46px;
+  left: 5px;
+  background-color: transparent;
+  width: 375px;
+  height: 812px;
+}
+.purple-green-vivid-autism-awar,
+.removebg-preview-1-icon {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  width: 342px;
+  height: 342px;
+  object-fit: cover;
+}
+.purple-green-vivid-autism-awar {
+  top: 299px;
+  left: 0;
+  width: 372px;
+  height: 526px;
+}
+.rectangle-icon {
+  position: absolute;
+  top: 299px;
+  left: 57px;
+  border-radius: 50px;
+  width: 233px;
+  height: 80px;
+}
+.get-start-label {
+  position: absolute;
+  top: 315px;
+  left: 86px;
+  display: inline-block;
+  width: 201px;
+  height: 64px;
+  cursor: pointer;
+}
+.home-div {
+  position: relative;
+  background-color: #ffbe26;
+  width: 100%;
+  height: 814px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 36px;
+  color: #000;
+  font-family: Righteous;
+}

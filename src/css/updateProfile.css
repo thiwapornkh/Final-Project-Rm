@@ -1,0 +1,212 @@
+.rectangle-div17 {
+    position: absolute;
+    top: 134px;
+    left: 48px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 6px 6px 5px 3px rgba(0, 0, 0, 0.25);
+    width: 280px;
+    height: 540px;
+  }
+  .line-icon,
+  .line-icon1 {
+    position: absolute;
+    top: 447px;
+    left: 70px;
+    width: 214px;
+    height: 1.98px;
+  }
+  .line-icon1 {
+    top: 528px;
+  }
+  .age-div,
+  .sex-div {
+    position: absolute;
+    top: 403px;
+    left: 72px;
+    display: inline-block;
+  }
+  .age-div {
+    top: 484px;
+  }
+  .rectangle-div18 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.25);
+    width: 175px;
+    height: 119px;
+  }
+  .test-1-div {
+    position: absolute;
+    top: 12px;
+    left: 55px;
+    display: inline-block;
+  }
+  .line-icon2 {
+    position: absolute;
+    top: 44px;
+    left: 0;
+    width: 125.01px;
+    height: 2px;
+  }
+  .score-div {
+    position: absolute;
+    top: 0;
+    left: 2px;
+    display: inline-block;
+  }
+  .group-div6 {
+    position: absolute;
+    top: 52px;
+    left: 17px;
+    width: 125px;
+    height: 46px;
+  }
+  .group-div5,
+  .group-div7 {
+    position: absolute;
+    top: 577px;
+    left: 26px;
+    width: 175px;
+    height: 119px;
+  }
+  .group-div7 {
+    left: 220px;
+  }.email-profile {
+    position: absolute;
+    top: 560px;
+    left: 70px;
+    display: inline-block;
+  }.email-currentUser{
+    position: absolute;
+    top: 600px;
+    left: 70px;
+    display: inline-block;
+  }
+  .username-div {
+    position: absolute;
+    top: 303px;
+    left: 70px;
+    display: inline-block;
+  }
+  .ellipse-icon {
+    position: absolute;
+    top: 148px;
+    left: 116px;
+    width: 135px;
+    height: 122px;
+    object-fit: cover;
+  }
+  .line-icon4 {
+    position: absolute;
+    top: 366px;
+    left: 70px;
+    width: 214px;
+    height: 1.98px;
+  }
+  .update-profile-text {
+    position: absolute;
+    top: 50px;
+    left: 55px;
+    font-size: 48px;
+    font-family: Ribeye;
+    color: #322c2c;
+    display: inline-block;
+    width: 333px;
+    height: 51px;
+    text-shadow: 10px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .rectangle-div20-update {
+    position: absolute;
+    top: 753px;
+    left: -3px;
+    background-color: #fff;
+    width: 404px;
+    height: 61px;
+  }
+  .ellipse-icon1-update,
+  .ellipse-icon2-update,
+  .ellipse-icon3-update {
+    position: absolute;
+    top: 723px;
+    left: 26px;
+    width: 80px;
+    height: 80px;
+  }
+  .ellipse-icon2-update,
+  .ellipse-icon3-update {
+    left: 147px;
+  }
+  .ellipse-icon3-update {
+    left: 276px;
+  }
+  .ellipse-icon4-update,
+  .ellipse-icon5-update {
+    position: absolute;
+    top: 734px;
+    left: 159px;
+    width: 57px;
+    height: 58px;
+    object-fit: cover;
+  }
+  .ellipse-icon5-update {
+    left: 37px;
+    width: 58px;
+  }
+  .logout-icon-update {
+    position: absolute;
+    top: 734px;
+    left: 284px;
+    width: 62px;
+    height: 62px;
+    object-fit: cover;
+  }
+  .updateprofile-div {
+    position: relative;
+     /* background-color: #531d77;  */
+    background-color: #e0bbfe;
+    width: 100%;
+    height: 812px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 18px;
+    color: #000;
+    font-family: Roboto Mono;
+  }
+  .email-update {
+    position: absolute;
+    top: 150px;
+    left: 45px;  
+    font-size: 25px;
+    display: inline-block;
+  }
+  .password-update {
+    position: absolute;
+    top: 250px;
+    left: 45px; 
+    font-size: 25px; 
+    display: inline-block;
+  }
+  .passconfirm-update{
+    position: absolute;
+    top: 350px;
+    left: 45px;  
+    font-size: 25px;
+    display: inline-block;
+  }
+  .btn-update{
+    position: absolute;
+    top: 450px;
+    left: 155px;   
+    display: inline-block;
+  }
+  .btn-cancel{
+    position: absolute;
+    top: 500px;
+    left: 170px;   
+    display: inline-block;
+  }
+  

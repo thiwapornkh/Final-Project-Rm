@@ -1,0 +1,136 @@
+.microprocessor-1-icon,
+.microprocessor-2-icon {
+  position: absolute;
+  top: 400px;
+  left: 0;
+  width: 279px;
+  height: 279px;
+  object-fit: cover;
+}
+.microprocessor-1-icon {
+  top: 0;
+  left: 149px;
+}
+.rectangle-div12 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, #bf70fd, rgba(191, 112, 253, 0));
+  width: 400px;
+  height: 735px;
+}
+.email-div,
+.password-div{
+  position: absolute;
+  top: 300px;
+  left: 52px;
+  font-size: 25px;
+  display: inline-block;
+}
+.re-password-div{
+  position: absolute;
+  top: 200px;
+  left: 52px;
+  font-size: 25px;
+  display: inline-block;
+}
+.sign-up-div {
+  position: absolute;
+  top: 371px;
+  left: 52px;
+  display: inline-block;
+}
+.email-div,
+.re-password-div,
+.sign-up-div {
+  top: 212px;
+}
+.re-password-div,
+.sign-up-div {
+  top: 400px;
+  left: 51px;
+}
+.sign-up-div {
+  top: 72px;
+  left: 70px;
+  font-size: 72px;
+  color: #fff;
+  mix-blend-mode: normal;
+}
+.rectangle-div13 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  background-color: #3b29ff;
+  width: 125px;
+  height: 47px;
+}
+.save-div {
+  position: absolute;
+  top: 510px;
+  left: 130px;
+  font-size: 24px;
+  font-family: Righteous;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+}
+.group-button2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 668px;
+  left: 125px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 125px;
+  height: 47px;
+}
+.group-textfield,
+.group-textfield1,
+.group-textfield2 {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 275px;
+  left: 36px;
+}
+.group-textfield1,
+.group-textfield2 {
+  top: 425px;
+  left: 37px;
+}
+.group-textfield2 {
+  top: 566px;
+  left: 36px;
+}
+.registation-div {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 660px;
+  overflow: hidden;
+  text-align: left;
+  /* font-size: 36px; */
+  color: #000;
+  font-family: Righteous;
+}
+.haveaccount {
+  position: absolute;
+  top: 570px;
+  left: 65px;
+  font-size: 18px;
+  font-family: Righteous;
+  color: #000;
+  text-align: center;
+  display: inline-block;
+}
+
+.rectangle-login {
+  background-color: linear-gradient(180deg, #bf70fd, rgba(191, 112, 253, 0));
+
+}
+
+

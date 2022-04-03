@@ -1,0 +1,211 @@
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+@keyframes jello-horizontal {
+  0%,
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+}
+.download-premium-png-of-purple {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 375px;
+  height: 834px;
+  object-fit: cover;
+}
+.group-icon {
+  position: absolute;
+  top: 7px;
+  left: 0;
+  width: 56px;
+  height: 50px;
+}
+.b,
+.group-button {
+  position: absolute;
+  height: 64px;
+}
+.b {
+  top: 0;
+  left: 12px;
+  font-size: 48px;
+  font-family: Inter;
+  display: inline-block;
+  color: #1dff5c;
+  text-align: left;
+  width: 33px;
+}
+.group-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 39px;
+  left: 159px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 56px;
+}
+.group-button:hover {
+  animation: 2s ease 0s 1 normal none pulsate;
+}
+.rectangle-div,
+.rectangle-div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  background-color: #5f03aa;
+  width: 296px;
+  height: 71.17px;
+}
+.rectangle-div1 {
+  top: 10.4px;
+  left: 9px;
+  border-radius: 10px;
+  background-color: #ffd12f;
+  width: 6px;
+  height: 51.98px;
+}
+.basic-command {
+  position: absolute;
+  top: 19.19px;
+  left: 31px;
+  font-size: 36px;
+  font-family: Inria Sans;
+  display: inline-block;
+  color: #fff;
+  text-align: left;
+  width: 248px;
+  height: 34.39px;
+}
+.group-button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 137px;
+  left: 41px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 296px;
+  height: 71.17px;
+}
+.group-button1:active {
+  animation: 3s ease 0s 1 normal none jello-horizontal;
+}
+.lesson-2-b {
+  position: absolute;
+  top: 12.8px;
+  left: 31px;
+  display: inline-block;
+  width: 171px;
+  height: 46.38px;
+}
+.group-div {
+  position: absolute;
+  top: 226.57px;
+  left: 41px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 296px;
+  height: 71.17px;
+}
+.lesson-3-b {
+  position: absolute;
+  top: 12.8px;
+  left: 31px;
+  display: inline-block;
+  width: 170px;
+  height: 46.38px;
+}
+.group-div1 {
+  position: absolute;
+  top: 316.13px;
+  left: 41px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 296px;
+  height: 71.17px;
+}
+.lesson-4-b {
+  position: absolute;
+  top: 12.8px;
+  left: 31px;
+  display: inline-block;
+  width: 172px;
+  height: 46.38px;
+}
+.group-div2,
+.group-div3 {
+  position: absolute;
+  top: 405.7px;
+  left: 41px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 296px;
+  height: 71.17px;
+}
+.group-div3 {
+  top: 495.26px;
+}
+.lesson-6-b {
+  position: absolute;
+  top: 12.8px;
+  left: 31px;
+  display: inline-block;
+  width: 174px;
+  height: 46.38px;
+}
+.group-div4 {
+  position: absolute;
+  top: 584.83px;
+  left: 41px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 296px;
+  height: 71.17px;
+}
+.lesson-div {
+  position: relative;
+  background-color: #fbd386;
+  width: 100%;
+  height: 812px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 48px;
+  color: #fff;
+  font-family: Inria Sans;
+}

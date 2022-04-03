@@ -1,0 +1,28 @@
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.image-2-icon1 {
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  border-radius: 5px;
+  width: 411px;
+  height: 151px;
+  object-fit: cover;
+  animation: 1s ease 0s 1 normal none scale-up;
+}
+.plugin-icon-1 {
+  position: relative;
+  background-color: #2a3d89;
+  width: 426px;
+  height: 165px;
+  overflow: hidden;
+  animation: 2s ease 0s 1 normal none scale-up;
+  max-width: 90%;
+  max-height: 90%;
+}
